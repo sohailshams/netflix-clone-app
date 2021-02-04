@@ -17,6 +17,18 @@
   padding-bottom: 0.3rem;
 }
 
+.banner__button {
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  border: none;
+  border-radius: 0.2vw;
+  font-weight: 700;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  margin-right: 1rem;
+  background-color: rgba(51, 51, 51, 0.5);
+}
+
 .banner__description {
   line-height: 1.3;
   padding-top: 1rem;
