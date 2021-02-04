@@ -2,6 +2,7 @@ import React from 'react'
 import './Nav.css';
 
 function Nav() {
+    const [show, handleShow] = useState(flase);
     return (
         <div className="nav nav__black">
             <div className="nav__contents">
