@@ -1,10 +1,13 @@
 import React from 'react';
+import Home from './components/Home';
 import './App.css';
 
 function App() {
-  return <div className="App">
-    <h1>Netflix Clone App</h1>
-  </div>;
+  return (
+  <div className="app">
+    <Home />
+  </div>
+  )
 }
 
 export default App;
