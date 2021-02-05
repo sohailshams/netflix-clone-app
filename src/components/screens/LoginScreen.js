@@ -1,6 +1,8 @@
 import React, {useState} from 'react';
 import logo from '../../images/netflix-image.png';
+import SignupScreen from './SignupScreen';
 import './LoginScreen.css';
+
 
 function LoginScreen() {
     const [signIn, setSignIn] = useState(false);
@@ -14,19 +16,26 @@ function LoginScreen() {
             <div className="loginScreen__gradient" />
         </div>
         <div className="loginScreen__body">
-          <h1>Unlimited films, TV programmes and more.</h1>
-          <h2>Watch anywhere. Cancel at any time.</h2>
-          <h3>Ready ro watch? Enter Your email to create or
-              restart membership.
-          </h3>
-          <div className="loginScreen__input">
-              <form>
-                  <input type="email" placeholder="Email Address"/>
-                    <button onClick={() => setSignIn(true)} className="loginScreen__getStarted">
-                        GET STARTED
-                    </button>
-              </form>
-          </div>
+            {signIn ? (
+                <SignupScreen />
+            ) : (
+                <>
+                    <h1>Unlimited films, TV programmes and more.</h1>
+                    <h2>Watch anywhere. Cancel at any time.</h2>
+                    <h3>Ready ro watch? Enter Your email to create or
+                        restart membership.
+                    </h3>
+                    <div className="loginScreen__input">
+                        <form>
+                            <input type="email" placeholder="Email Address"/>
+                                <button onClick={() => setSignIn(true)} className="loginScreen__getStarted">
+                                    GET STARTED
+                                </button>
+                        </form>
+                    </div>
+                </>
+            )}
+          
         </div>
     </div>
   );
