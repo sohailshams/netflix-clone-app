@@ -16,6 +16,14 @@ function LoginScreen() {
           <h3>Ready ro watch? Enter Your email to create or
               restart membership.
           </h3>
+          <div className="loginScreen__input">
+              <form>
+                  <input type="email" placeholder="Email Address"/>
+                    <button className="loginScreen__getStarted">
+                        GET STARTED
+                    </button>
+              </form>
+          </div>
         </div>
     </div>
   );
