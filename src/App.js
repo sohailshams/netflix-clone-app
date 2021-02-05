@@ -9,7 +9,9 @@ import LoginScreen from './components/screens/LoginScreen';
 import { auth } from './firebase';
 import {useDispatch, useSelector} from 'react-redux';
 import { login, logout, selectUser } from './features/userSlice';
+import ProfileScreen from './components/screens/ProfileScreen';
 import './App.css';
+
 
 
 
@@ -40,6 +42,9 @@ function App() {
         <LoginScreen />
       ) : (
         <Switch>
+          <Route path="/profile">
+            <ProfileScreen />
+          </Route>
           <Route exact path="/">
             <Home />
           </Route>
