@@ -1,8 +1,8 @@
 import React from 'react';
-import Banner from './Banner';
-import Nav from './Nav';
-import MovieRow from './MovieRow';
-import requests from '../requests';
+import Banner from '../Banner';
+import Nav from '../Nav';
+import MovieRow from '../MovieRow';
+import requests from '../../requests';
 import './Home.css';
 
 function Home() {
