@@ -25,7 +25,27 @@ function PlansScreen() {
       });
   }, []);
 
-  return <div className="plansScreen"></div>;
-}
+  return (
+    <div className="plansScreen">
+        {Object.entries(products).map(([productId, productData]) => {
+            // Todo
+            return (
+                <div className="plansScreen__plan">
+                    <div className="plansScreen__info">
+                        <h5>{productData.name}</h5>
+                        <h6>{productData.description}</h6>
+                    </div>
+                    <button>
+                        Subscribe
+                    </button>
+                </div>
+
+            )
+        })}
+    </div>
+
+  )
+
+  }
 
 export default PlansScreen;
