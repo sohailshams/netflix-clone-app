@@ -82,9 +82,9 @@ function PlansScreen() {
         {Object.entries(products).map(([productId, productData]) => {
             
             const isCurrentPackage = productData.name?.toLowerCase().includes(subscription?.role);
-            console.log(isCurrentPackage);
+
             return (
-                <div className="plansScreen__plan">
+                <div key={productId} className="plansScreen__plan">
                     <div className="plansScreen__info">
                         <h5>{productData.name}</h5>
                         <h6>{productData.description}</h6>
