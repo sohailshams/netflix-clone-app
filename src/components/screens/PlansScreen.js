@@ -84,7 +84,7 @@ function PlansScreen() {
             const isCurrentPackage = productData.name?.toLowerCase().includes(subscription?.role);
 
             return (
-                <div key={productId} className="plansScreen__plan">
+                <div key={productId} className={`${isCurrentPackage && "plansScreen__plan--disable" } plansScreen__plan`}>
                     <div className="plansScreen__info">
                         <h5>{productData.name}</h5>
                         <h6>{productData.description}</h6>
