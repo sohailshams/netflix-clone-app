@@ -93,3 +93,15 @@
   cursor: pointer;
   font-weight: 600;
 }
+
+@media (max-width: 425px) {
+  .loginScreen__body > h1 {
+    font-size: 25px !important;
+  }
+  .loginScreen__input > form > input {
+    width: 55% !important;
+  }
+  .loginScreen__getStarted {
+    margin-top: 5px !important;
+  }
+}
