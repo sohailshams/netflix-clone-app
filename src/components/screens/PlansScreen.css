@@ -22,3 +22,10 @@
 .plansScreen__plan--disable > button {
   background-color: grey !important;
 }
+
+@media (max-width: 425px) {
+  .plansScreen__plan > button {
+    font-size: 70% !important;
+    margin-left: 10px !important;
+  }
+}
