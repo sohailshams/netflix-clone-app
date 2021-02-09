@@ -22,6 +22,7 @@ function ProfileScreen() {
           <div className="profileScreen__details">
             <h2>{user.email}</h2>
             <div className="profileScreen__plans">
+              <p>Test card number 4242 4242 4242 4242, expiry 0424, CVC 424</p>
               <h3>Plans</h3>
               <PlansScreen />
               <button

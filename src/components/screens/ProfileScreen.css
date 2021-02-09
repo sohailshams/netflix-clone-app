@@ -30,6 +30,13 @@
   flex: 1;
 }
 
+.profileScreen__plans > p {
+  background-color: #fff;
+  color: #000;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+}
+
 .profileScreen__body > h1 {
   font-size: 60px;
   font-weight: 400px;
@@ -86,5 +93,11 @@
   .profileScreen__details > h2 {
     font-size: 70% !important;
     width: 85% !important;
+  }
+}
+
+@media (max-width: 375px) {
+  .profileScreen__plans > p {
+    font-size: 75% !important;
   }
 }
