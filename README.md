@@ -1,6 +1,6 @@
 # Netflix-Clone
 
-## React.js project Netflix-Clone (with React Firebse Hooks, Redux, Stripe & Firebase)
+## React.js project Netflix-Clone (with React Hooks, Redux, Stripe & Firebase)
 
 ## Description
 
