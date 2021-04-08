@@ -28,10 +28,11 @@ Netflix-Clone is developed in connection to my learning of **React**. Users can 
 ## Deployment
 
 The deployed project and project's **github repository** can be viewed on following links. To test card payments use
+test card no. 4242 4242 4242 4242, expiry 0424, CVC 424.
 
-- **[Slack Clone Live Page](https://netflix-clone-app-93fe9.web.app/)**
+- **[Netflix Clone Live Page](https://netflix-clone-app-93fe9.web.app/)**
 
-- **[Slack Clone Live Page Github Repository](https://github.com/sohailshams/netflix-clone-app)**
+- **[Netflix Clone Github Repository](https://github.com/sohailshams/netflix-clone-app)**
 
 ## Credits
 
